@@ -72,10 +72,12 @@ def print_full_name(first, last):
     print(template)
 
 
-# Find Substring
+# Find substring in string
 
 def mutate_string(string, position, character):
     list_of_string = list(string)
     list_of_string[position] = character
     string = "".join(list_of_string)
     return string
+
+
