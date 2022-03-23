@@ -79,5 +79,3 @@ def mutate_string(string, position, character):
     list_of_string[position] = character
     string = "".join(list_of_string)
     return string
-
-
